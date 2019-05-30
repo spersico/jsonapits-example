@@ -1,0 +1,33 @@
+{
+    "name": "beerjs_jsonapi",
+    "version": "1.0.0",
+    "description": "holis",
+    "author": "Santiago Persico <santiagopersico@gmail.com>",
+    "license": "MIT",
+    "main": "app.js",
+    "scripts": {
+        "dev": "SESSION_KEY=tests tsnd app/",
+        "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+    },
+    "dependencies": {
+        "@ebryn/jsonapi-ts": "^0.1.43",
+        "knex": "^0.15",
+        "koa": "^2.7.0",
+        "sqlite3": "^4.0.6",
+        "ts-node": "^8.1.0"
+    },
+    "devDependencies": {
+        "@types/koa": "^2.0.48",
+        "@types/node": "^11.13.4",
+        "@typescript-eslint/eslint-plugin": "^1.9.0",
+        "@typescript-eslint/parser": "^1.9.0",
+        "eslint": "^5.16.0",
+        "ts-node-dev": "^1.0.0-pre.32",
+        "prettier": "^1.15.3",
+        "typescript": "^3.4.3"
+    },
+    "engines": {
+        "node": "^10.15.3",
+        "npm": "^6.4.1"
+    }
+}

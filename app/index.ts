@@ -9,10 +9,8 @@ import { Application, KnexProcessor, jsonApiKoa } from '@ebryn/jsonapi-ts';
 import { join } from 'path';
 
 const app = new Application({
-    namespace: 'api',
     types: [Article, Comment, Vote],
-    processors: [],
-    defaultProcessor: KnexProcessor,
+    defaultProcessor: KnexProcessor
 });
 
 app.services.knex = Knex({

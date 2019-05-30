@@ -1,5 +1,4 @@
-import { Resource } from "@ebryn/jsonapi-ts";
-import User from "./user";
+import { Resource, User } from "@ebryn/jsonapi-ts";
 import Vote from "./vote";
 
 export default class Article extends Resource {

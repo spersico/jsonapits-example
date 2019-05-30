@@ -1,5 +1,4 @@
-import { Resource } from "@ebryn/jsonapi-ts";
-import User from "./user";
+import { Resource, User } from "@ebryn/jsonapi-ts";
 
 export default class Comment extends Resource {
   static schema = {

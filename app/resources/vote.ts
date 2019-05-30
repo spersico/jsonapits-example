@@ -1,6 +1,5 @@
-import User from "./user";
 import Article from "./article";
-import { Resource } from "@ebryn/jsonapi-ts";
+import { Resource, User } from "@ebryn/jsonapi-ts";
 
 export default class Vote extends Resource {
   static schema = {

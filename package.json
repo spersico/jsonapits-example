@@ -11,7 +11,7 @@
     },
     "dependencies": {
         "@ebryn/jsonapi-ts": "^0.1.43",
-        "knex": "^0.15",
+        "knex": "^0.19",
         "koa": "^2.7.0",
         "sqlite3": "^4.0.6",
         "ts-node": "^8.1.0"
